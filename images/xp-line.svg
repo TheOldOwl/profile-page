@@ -1,0 +1,90 @@
+<svg id="XP_line" data-name="XP line" xmlns="http://www.w3.org/2000/svg" width="1600" height="143" viewBox="0 0 1600 143">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #cf4647;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #252525;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        text-anchor: middle;
+        font-family: "Fira Sans";
+      }
+
+      .cls-4 {
+        fill: #c2c2c2;
+        font-weight: 300;
+      }
+
+      .cls-4, .cls-5 {
+        font-style: italic;
+      }
+
+      .cls-5 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <path id="hr_line" data-name="hr line" class="cls-1" d="M0,686v-5H1601v5H0Z" transform="translate(0 -612)"/>
+  <circle id="consilier_circle" data-name="consilier circle" class="cls-2" cx="319" cy="71" r="10"/>
+  <circle id="landscape_circle" data-name="landscape circle" class="cls-2" cx="643.5" cy="70.5" r="12.5"/>
+  <circle id="university_circle" data-name="university circle" class="cls-2" cx="921" cy="71" r="10"/>
+  <circle id="freelancer_circle" data-name="freelancer circle" class="cls-2" cx="1186.5" cy="71.5" r="7.5"/>
+  <circle id="helpdesk_circle" data-name="helpdesk circle" class="cls-2" cx="1433" cy="71" r="15"/>
+  <text id="Landscape_Designer" data-name="Landscape Designer" class="cls-3" x="644.71" y="15.9">Landscape<tspan x="644.71" dy="24">Designer</tspan></text>
+  <text id="Freelancer" class="cls-3" x="1185.71" y="49.9">Freelancer</text>
+  <text id="Universitate" class="cls-4" x="923.71" y="109.9">Universitate</text>
+  <text id="Consilier_Imobiliar" data-name="Consilier Imobiliar" class="cls-3" x="320" y="109.013">Consilier<tspan x="320" dy="24">Imobiliar</tspan></text>
+  <text id="Helpdesk_Specialist" data-name="Helpdesk Specialist" class="cls-3" x="1432.71" y="113.9">Helpdesk<tspan x="1432.71" dy="24">Specialist</tspan></text>
+  <text id="_2006" data-name="2006" class="cls-5" x="165.158" y="46.183">2006</text>
+  <text id="_2010" data-name="2010" class="cls-5" x="784.158" y="47.182">2010</text>
+  <text id="_2008" data-name="2008" class="cls-5" x="485.158" y="112.181">2008</text>
+  <text id="_2013" data-name="2013" class="cls-5" x="1114.158" y="109.182">2013</text>
+  <text id="_2015" data-name="2015" class="cls-5" x="1312.158" y="50.183">2015</text>
+  <text id="_2017" data-name="2017" class="cls-5" x="1545.158" y="112.181">2017</text>
+  <path id="line1" class="cls-1" d="M164,666h3v15h-3V666Z" transform="translate(0 -612)"/>
+  <path id="line2" class="cls-1" d="M484,686h3v15h-3V686Z" transform="translate(0 -612)"/>
+  <path id="line3" class="cls-1" d="M782,666h3v15h-3V666Z" transform="translate(0 -612)"/>
+  <path id="line4" class="cls-1" d="M1114,686h3v15h-3V686Z" transform="translate(0 -612)"/>
+  <path id="line5" class="cls-1" d="M1311,666h3v15h-3V666Z" transform="translate(0 -612)"/>
+  <path id="line6" class="cls-1" d="M1545,686h3v15h-3V686Z" transform="translate(0 -612)"/>
+</svg>

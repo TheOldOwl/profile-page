@@ -1,0 +1,241 @@
+/* -------------------------GLOBAL STYLES------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    background-color: #393939;
+
+    /* border: 1px solid red; */
+    z-index: 999;
+}
+
+/* ---------------------- CONTENT WRAP AND POSITION ------------------------- */
+
+.wrapper {
+    height: 95vh;
+    
+    transform-origin: left bottom;
+    transform: skew(0deg, 2deg) translateY(-60px);
+    
+    min-height: 640px;
+    min-width: 600px;
+    overflow: hidden;
+
+    box-shadow: 2px 2px 10px #252525;
+}
+
+.content {
+    
+    height: 100%;
+    transform-origin: left bottom;
+    transform: skew(0deg, -2deg) translateY(60px);
+    position: relative;
+    
+    /* border: 1px solid yellow; */
+}
+
+
+/* -----------------------------NAV-------------------------- */
+
+.header {
+    /* border: 1px solid red; */
+    z-index: 10;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    /* min-width: 600px; */
+}
+
+.header > li {
+    /* border: 1px solid #252525; */
+    width: 200px;
+    background-color: #252525;
+    color: #c2c2c2;
+    box-shadow: 2px 2px 10px #252525;
+    transition: all 0.3s ease-in-out;
+}
+
+.header > li:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.header > li:last-child{
+    border-bottom-right-radius: 5px;
+}
+
+.header > li a {
+    /* border: 1px solid blue; */
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 200;
+    color: inherit;
+}
+
+.header .active{
+    color: #CF4647;
+    background-color: #393939;
+    box-shadow: none;
+    cursor: default;
+}
+
+.header li:hover {
+    background-color: #252525;
+    color: #CF4647;
+}
+
+/* ----------------------Social Media ---------------- */
+
+.social-media-sidebar {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+}
+
+.social-media-sidebar li {
+    background-color: #393939;
+    margin: 0 0 0 auto;
+    width: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 1px #252525;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa {
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media-sidebar li:hover{
+    width: 100px;
+    background-color: #252525;
+}
+
+.social-media-sidebar li:hover a {
+    color: #CF4647;
+}
+
+.social-media-sidebar li:hover a .fa {
+    transform: translateX(-15px);
+}
+
+.social-media-sidebar li a {
+    display: block;
+    line-height: 100%;
+    font-size: 42px;
+    padding: 10px 0px;
+    color: #c2c2c2;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/* -------------------- Footer --------------------------------- */
+
+footer {
+    background-color: #393939;
+    width: 100%;
+
+    /* border: 1px solid red; */
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+#logo {
+    /* position: absolute;
+    bottom: 0px; */
+    display: block;
+    width: 150px;
+    opacity: 0.1;
+    margin: 0 0 20px 20px;
+    
+    transition: all 0.3s ease-in-out;
+
+}
+
+.email {
+    /* color: rgba(207,70,71, 0.6); */
+    color: #c2c2c2;
+    letter-spacing: 0.5rem;
+    font-size: 16px;
+    font-weight: 200;
+    cursor: pointer;
+    
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.email:hover {
+    color: #252525;
+}
+
+.logo-on{
+    opacity: 0.6;
+}
+
+@media screen and (max-device-width:780px) {
+    .social-media-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width:640px) {
+    
+        .wrapper {
+            min-width: auto;
+            min-height: auto;
+        }
+    
+        .header {
+            min-width: auto;
+        }
+    
+        #name {
+            text-shadow: none;
+            font-size: 6vw;
+        }
+    
+        .social-media-sidebar {
+            display: none;
+        }
+        
+        footer {
+            width: 100%;
+            text-align: center;
+        }
+
+        .email {
+            position: static;
+            padding: 10px 0;
+            font-size: 4vw;
+        }
+    
+
+        #logo {
+            position: static;
+            margin: auto;
+        }
+    }

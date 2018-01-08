@@ -1,0 +1,141 @@
+
+
+.scroll-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    border: 1px solid red;
+    /* overflow: scroll; */
+}
+
+.scroll-content section {
+    height: 100%;
+    
+}
+
+/* --------------------------------- 1st SECTION ------------------------------------------- */
+
+.col-2 {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    min-width: 640px;
+
+    border: 1px solid yellow;
+}
+
+.first-col {
+    border: 3px solid rgba(15, 15, 15, 0.3);
+
+    text-transform: uppercase;
+    color: #c2c2c2;
+    
+    line-height: 3em;
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-col h3 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.first-col h4 {
+    transform: skew(20deg);
+}
+
+.job-title-plate {
+    transform: skew(-20deg);
+    background-color: #cf4647;
+    width: 320px;
+    box-shadow: 2px 2px 10px #252525;
+}
+
+.second-col {
+    background-color: rgba(15, 15, 15, 0.7);
+    color: #c2c2c2;
+    /* margin-left: 200px; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #252525;
+
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px 20px;
+    line-height: 1.7em;
+
+    width: 50%;
+    
+    text-align: justify;
+
+    font-size: 18px;
+    font-weight: 200;
+    max-height: 200px;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+/* --------------------------- 2nd SECTION STUDY ---------------------------------------- */
+
+.col-1 {
+    background-color: rgba(15, 15, 15, 0.7);
+    color: #c2c2c2;
+    box-shadow: 2px 2px 10px #252525;
+
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 60%;
+    border-radius: 5px;
+    min-width: 752px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1 p {
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(194, 194, 194, 0.4);
+    line-height: 2em;
+}
+
+.col-1 p:first-child {
+    font-size: 20px;
+    font-weight: 400;
+    color: #c2c2c2;
+}
+
+/* ------------------------------ 3d SECTION XP LINE --------------------------------- */
+
+.col-xp-line {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.col-xp-line img {
+    width: 100%;
+}
+
+/* ------------------------------- 4th SECTION SKILLS ------------------------------- */
+
+.col-skills {
+    padding: 30px 0;
+    /* border: 1px solid yellow; */
+    margin-bottom: 100px;
+}
+
+.col-skills img {
+    height: 400px;
+}
