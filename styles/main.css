@@ -1,6 +1,6 @@
 /* ------------------------- Background Image --------------------------- */
 
-.content {
+.wrapper {
     background-image: url(../images/bg-home.png);
     background-size: cover;
     background-repeat: no-repeat;
