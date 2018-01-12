@@ -17,6 +17,10 @@
     margin-top: 40px;
     overflow-y: scroll;
 }
+
+.bg-container::-webkit-scrollbar {
+    display: none;
+}
 .cv-position {
     /* border: 1px solid red; */
 
